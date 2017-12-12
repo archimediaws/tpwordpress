@@ -1,0 +1,131 @@
+/*
+Theme Name: MY Theme
+
+Template: twentyseventeen
+Author: Yo
+Author URI: http://stephaneescobar.com
+Description: Theme enfant de twenty seventeen
+Tags: custom
+Version: 0.0.1
+
+
+*/
+
+/* centrer le titre du site */
+#masthead .wrap {
+  text-align: center;
+}
+.site-title{
+  background-color: black;
+}
+.site-branding {
+  padding: 6em 0;
+}
+/* ------ styles pour écran < 767px  ----------- */
+
+/* page &&  categorie/archive 3 colonnes en flex */
+/* !flex  si < 767px */
+.flex{ 
+	display:block;
+}
+
+.flexcat{ 
+	display:block;
+}
+
+#primary {
+  width: 100%;
+}
+
+.left-sidebar .right-sidebar {
+  width: 100%;
+}
+
+.article-page{
+  width: 100%;
+  margin-left: 20px;
+}
+
+article{
+  margin-left: 20px;
+}
+
+.my-row {
+  width: 100%;
+}
+.clear-row {
+  clear: both;
+}
+
+.custom-header{
+  height: 300px;
+}
+
+
+/* --------- styles pour écran > 767px  ------------ */
+
+@media screen and (min-width: 48em) {
+    
+/* flex si > 767px */
+  .flex{
+    display:flex;
+  }
+
+  .flexcat{ 
+    display:flex;
+    /* flex-direction: column; */
+    
+  }
+
+  .left-sidebar  .right-sidebar{
+    width: 30%;
+  }
+
+  /* barre latérale */    
+  .has-sidebar #secondary {
+    float: left;
+  }
+  .has-sidebar #primary {
+    float: right;
+  }
+
+  /* modifie la largeur de la barre latérale */
+  .has-sidebar:not(.error404) #primary {
+    width: 100%;
+  }
+  .has-sidebar #secondary {
+    width: 31%;
+  }
+  
+  /* Égalise la largeur des zones de widget du footer */
+  .site-footer .widget-column.footer-widget-1, 
+  .site-footer .widget-column.footer-widget-2, 
+  .social-navigation, .site-info {
+    width: 47%;
+  }
+
+}
+
+ /* Modifier la largeur des pages et des articles (sans barre latérale)*/
+ @media screen and (min-width: 48em) {
+  .wrap {
+    max-width: 1280px;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .single-post:not(.has-sidebar) #primary, 
+  .page.page-one-column:not(.twentyseventeen-front-page) #primary, 
+  .archive.page-one-column:not(.has-sidebar) .page-header, 
+  .archive.page-one-column:not(.has-sidebar) #primary {
+    max-width: 1280px;
+  }
+
+
+
+
+}
+
+
+
+
+

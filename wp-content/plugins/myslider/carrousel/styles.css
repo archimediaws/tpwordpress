@@ -1,0 +1,34 @@
+
+#carrousel, #carrousel_2 {
+    width: 500px;
+    height: 300px;
+    border:1px solid black;
+}
+
+#carrousel_3 {
+    width: 450px;
+    height: 200px;
+    border:1px solid black;
+}
+
+
+#carrousel .item{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center; 
+}
+
+
+.item_1{
+    background-image: url('images/bg1.jpg');
+}
+.item_2{
+    background-image: url('images/bg2.jpg');
+}
+.item_3{
+    background-image: url('images/bg3.jpg');
+}
+.item_4{
+    background-image: url('images/bg4.jpg');
+}

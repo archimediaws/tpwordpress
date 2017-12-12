@@ -1,0 +1,22 @@
+#slider {
+    height: 350px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding : 10px;
+}
+
+
+.simple-slide {
+display : flex;
+height:  100%;
+}
+
+.simple-slide img {
+height: 300px;
+}
+
+.simple-slide .right-content {
+    
+    text-align: center;
+    width: 100%;
+    }

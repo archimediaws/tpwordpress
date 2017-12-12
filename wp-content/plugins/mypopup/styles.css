@@ -1,0 +1,22 @@
+#popups {
+    height: 350px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding : 10px;
+}
+
+
+.simple-popup {
+display : flex;
+height:  100%;
+}
+
+.simple-popup img {
+height: 300px;
+}
+
+.simple-popup .right-content {
+    
+    text-align: center;
+    width: 100%;
+    }
