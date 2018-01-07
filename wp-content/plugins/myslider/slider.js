@@ -1,5 +1,5 @@
-const $ = jQuery;
-
+/* const $ = jQuery;*/
+/* test */
 $(document).ready(function(){
 
 
